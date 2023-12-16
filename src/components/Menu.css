@@ -1,0 +1,39 @@
+/* Menu.css */
+
+.card-scroll {
+    display: flex;
+    overflow-x: auto;
+    
+  }
+  
+  .card-scroll::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .card-scroll::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+ .responsive-carousel {
+
+  width: 50%; /* or another responsive width */
+  max-width: 1200px; /* Set a maximum width if needed */
+  margin: 0 auto; /* Center the carousel within its container */
+}
+
+
+.res-btn-out {
+    color: greenyellow;
+    border: 1px solid yellowgreen;
+  }
+  
+  .res-btn-out:hover {
+    border-color: greenyellow;
+  }

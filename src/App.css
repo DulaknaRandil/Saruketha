@@ -43,14 +43,23 @@ body {
 
 .navbar-brand, .navbar-nav .nav-link {
   color: white !important;
+  
 
 }
+
 
 /* Logo style */
 .logo {
   color: greenyellow;
 }
+.res-btn-out {
+  color: greenyellow;
+  border: 1px solid yellowgreen;
+}
 
+.res-btn-out:hover {
+  border-color: greenyellow;
+}
 /* Hamburger icon color */
 .custom-toggler-icon {
   background-color: transparent; /* Set the background color to transparent */
@@ -68,8 +77,15 @@ body {
 
 .nav-alignment
 {
-  place-content: left;
-  place-items: left;
+ 
+ place-items: center;
+ 
+ 
+}
+
+.content-container{
+  padding-left: 10px; /* Adjust the padding as needed */
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
